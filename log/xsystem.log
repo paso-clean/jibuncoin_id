@@ -1,0 +1,46 @@
+[2022-08-22 17:14:10]
+http://localhost/node1/id/api/network/connection/call_back/network/7609015214640604/RKQLEszrFxHq9SMT/eyJjb25uZWN0aW9uIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9ub2RlMlwvY29tbW9uXC9hcGlcL25ldHdvcmtcL2Nvbm5lY3Rpb25cLyJ9/
+[2022-08-22 17:17:10]
+http://localhost/node2/id/api/network/connection/call_back/network/2075078040452857/0BjfVGt7ufh0grrJ/eyJjb25uZWN0aW9uIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9ub2RlMlwvY29tbW9uXC9hcGlcL25ldHdvcmtcL2Nvbm5lY3Rpb25cLyJ9/
+[2022-08-22 17:18:43]
+INSERT INTO xsystem_entity_objects SET
+                          entity_code = '1783330898500983',
+                          entity_type = 'network',
+                          object_entity = 'server',
+                          object_code = '6859679340463243'
+                
+[2022-08-22 17:18:44]
+INSERT INTO xsystem_entity_objects SET
+                          entity_code = '1783330898500983',
+                          entity_type = 'network',
+                          object_entity = 'server',
+                          object_code = '2609755469115954'
+                
+[2022-08-22 17:51:00]
+INSERT INTO xsystem_entity_objects SET
+                          entity_code = '1783330898500983',
+                          entity_type = 'network',
+                          object_entity = 'server',
+                          object_code = '6859679340463243'
+                
+[2022-08-22 17:51:09]
+INSERT INTO xsystem_entity_objects SET
+                          entity_code = '1783330898500983',
+                          entity_type = 'network',
+                          object_entity = 'server',
+                          object_code = '2609755469115954'
+                
+[2022-08-22 17:58:23]
+INSERT INTO xsystem_entity_objects SET
+                          entity_code = '1783330898500983',
+                          entity_type = 'network',
+                          object_entity = 'server',
+                          object_code = '6859679340463243'
+                
+[2022-08-22 17:58:28]
+INSERT INTO xsystem_entity_objects SET
+                          entity_code = '1783330898500983',
+                          entity_type = 'network',
+                          object_entity = 'server',
+                          object_code = '2609755469115954'
+                

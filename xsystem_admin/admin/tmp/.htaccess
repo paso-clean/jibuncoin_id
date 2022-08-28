@@ -1,0 +1,36 @@
+# BEGIN_XSYSTEM_APP_HTACCESS
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /node1/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^coin/ xsystem/application/coin/index.php [L]
+RewriteRule ^sotauth/ xsystem/application/sotauth/index.php [L]
+</IfModule>
+# END_XSYSTEM_APP_HTACCESS
+
+# BEGIN_XSYSTEM_ADMIN_HTACCESS
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /node1/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^xsystem_admin/ xsystem/xsystem_admin/index.php [L]
+</IfModule>
+# END_XSYSTEM_ADMIN_HTACCESS
+
+# BEGIN WordPress
+# "BEGIN WordPress" から "END WordPress" までのディレクティブ (行) は
+# 動的に生成され、WordPress フィルターによってのみ修正が可能です。
+# これらのマーカー間にあるディレクティブへのいかなる変更も上書きされてしまいます。
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /node1/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /node1/index.php [L]
+</IfModule>
+
+# END WordPress
